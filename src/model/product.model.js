@@ -1,10 +1,5 @@
-const { Sequelize, Model, DataTypes } = require('sequelize');
-
-const sequelize = new Sequelize('fdu', 'root', 'root', {
-  host: 'localhost',
-  dialect: 'mysql',
-  port: 3306,
-});
+const { Model, DataTypes } = require('sequelize');
+const sequelize = require('../db/connection');
 
 
 
